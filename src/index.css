@@ -158,59 +158,49 @@ footer{
     height: 40% ;
     border-radius: 50%;
 }
-.services{
+.pc-container{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-}
-.services h1{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 35px;
-    font-size: 2.5rem;
-}
-.services-container{
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 50vh;
+    margin-bottom: 50px;
 }
-.service{
-    scale: 1;
+.pc{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid hsla(0, 0%, 0%, 0.65);
-    width: 25%;
-    height: 90%;
-    padding: 20px 20px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.65);
+    gap: 20px;
+    height: 100%;
+    width: 20%;
+    border: 2px solid black;
+    padding: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.425);
+    scale: 0.95;
 }
-.service:hover{
-    scale: 1.1;
+.pc:hover{
+    scale: 1;
     transition: 0.3s;
 }
-.service h3{
-    margin-bottom: 15px;
-    font-size: 2rem;
-}
-.service h2{
-    margin-bottom: 25px;
-    font-size: 2.5rem;
-}
-.service ul{
-    list-style-type: none;
-    padding-inline-start: 0px;
-    align-self:baseline;
-    margin-bottom: 25px;
-}
-.service li{
-    margin-bottom: 10px;
-    font-size: 1.4rem;
-}
-.service button{
+#checkout-btn{
     color: black;
-    padding: 12px 26px;
+    width: fit-content;
+    padding: 12px 18px;
     border-radius: 15px;
+    font-size: 1.2rem;
     border: none;
     cursor: pointer;
+}
+.card-container{
+    margin: 40px 10px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#pc-description{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
